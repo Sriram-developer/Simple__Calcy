@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    outline: none;
+}
+
+body{
+    background-image: url(http://wallpaperstock.net/black-wood%2C-digital-art_wallpapers_54974_1920x1080.jpg);
+}
+.container{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.calculator{
+    background-color:rgb(218, 244, 248);
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #fff, 5px 5px 6px rgba(139, 139, 139, 0.562);
+    display: grid;
+    grid-template-columns: repeat(4,70px);
+
+}
+input{
+    grid-column: span 4;
+    height: 70px;
+    width: 260px;
+    background-color:#ffff;
+    box-shadow: inset -5px -5px 12px  #fff,inset 5px 5px 12px rgba(0,0,0,.16);
+    border:none;
+    border-radius: 30px;
+    color: rgb(70,70,70);
+    font-size: 50px;
+    text-align: end;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+
+}
+button{
+    height: 48px;
+    width: 48px;
+    background-color:rgb(218, 244, 248);
+    box-shadow:  -5px -5px 12px rgb(231, 230, 230), 5px 5px 12px rgba(0,0,0,.16);
+    border:none;
+    border-radius: 50%;
+    margin:8px;
+    font-size: 20px;
+
+}
+.equal__to{
+    width: 115px;
+    border-radius: 40px;
+    background-color:rgb(218, 244, 248);
+    box-shadow: -5px -5px 12px rgb(231, 230, 230), 5px 5px 12px rgba(0,0,0,.16);
+}
