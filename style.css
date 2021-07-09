@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url(http://wallpaperstock.net/black-wood%2C-digital-art_wallpapers_54974_1920x1080.jpg);
+    background-image: url(https://southernhoopsreport.com/wp-content/uploads/2018/11/156689-download-white-gradient-background-2447x1468-1080p.jpg);
 }
 .container{
     height:100vh;
@@ -17,10 +17,10 @@ body{
 }
 
 .calculator{
-    background-color:rgb(218, 244, 248);
+    background-color:#fcfafaec;
     padding: 15px;
     border-radius: 30px;
-    box-shadow: inset 5px 5px 12px #fff, 5px 5px 6px rgba(139, 139, 139, 0.562);
+    box-shadow: inset -2px -2px 10px rgb(253, 229, 229), -2px -2px 10px rgba(139, 139, 139, 0.562);
     display: grid;
     grid-template-columns: repeat(4,70px);
 
@@ -30,7 +30,7 @@ input{
     height: 70px;
     width: 260px;
     background-color:#ffff;
-    box-shadow: inset -5px -5px 12px  #fff,inset 5px 5px 12px rgba(0,0,0,.16);
+    box-shadow: inset -5px -5px 12px rgb(253, 229, 229),inset 5px 5px 12px rgba(0,0,0,.16);
     border:none;
     border-radius: 30px;
     color: rgb(70,70,70);
@@ -45,17 +45,18 @@ input{
 button{
     height: 48px;
     width: 48px;
-    background-color:rgb(218, 244, 248);
-    box-shadow:  -5px -5px 12px rgb(231, 230, 230), 5px 5px 12px rgba(0,0,0,.16);
+    background-color:#202020;
+    box-shadow:  -2px -2px 12px rgb(253, 229, 229), -2px -2px 12px rgba(0,0,0,.16);
     border:none;
     border-radius: 50%;
     margin:8px;
     font-size: 20px;
+    color: rgb(243, 207, 87);
 
 }
 .equal__to{
     width: 115px;
     border-radius: 40px;
-    background-color:rgb(218, 244, 248);
-    box-shadow: -5px -5px 12px rgb(231, 230, 230), 5px 5px 12px rgba(0,0,0,.16);
+    background-color:#202020;
+    box-shadow: -2px -2px 12px rgb(253, 229, 229), -2px -2px 12px rgba(0,0,0,.16);
 }
